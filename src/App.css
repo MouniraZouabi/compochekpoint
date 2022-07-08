@@ -1,0 +1,65 @@
+.App {
+ background-image: url(../src/pictures/bg3.jpg);
+ min-height: 100vh;
+ background-position: center;
+ align-items: end;
+ display: flex;
+ flex-direction: column;
+ color: rgb(12, 11, 11);
+}
+.H{
+  color: #fcf5f5;
+    text-shadow: 1px 2px rgb(2, 0, 0);
+}
+h1{
+  
+  text-shadow:0 0 2px #FFD100,0 0 30px #FFD100,0px 0px 5px #FFD100, 0 0 150px #FFD100;color:#FFD100;
+ 
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 70%;
+  border: 1px solid #77ad21;
+}
+
+.card-title{
+  text-shadow:0 0 1px #FFD100,0 0 30px #FFD100,0px 0px 1px #FFD100, 0 0 100px #FFD100;color:#FFD100;
+}
+.card-text{
+  color:#fcfdf9;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.card1{
+  display: flex;
+  margin: auto;
+  width: 60%;
+  border: 3px solid #fcfdf9;
+  padding: 10px;
+  align-self: center;
+  align-items: center;
+  border-radius: 20%;
+
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
